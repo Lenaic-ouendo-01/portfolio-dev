@@ -16,7 +16,7 @@
                         <svg class="mr-[16.34px]" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 -3 24 24">
                           <path fill="#4f4f4f" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-.4 4.25l-7.07 4.42c-.32.2-.74.2-1.06 0L4.4 8.25a.85.85 0 1 1 .9-1.44L12 11l6.7-4.19a.85.85 0 1 1 .9 1.44z"/>
                         </svg>
-                        <a class="_blank text-lg font-medium text-black/60" href="https://mail.google.com/mail/u/0/#inbox?compose=new"> malloryouendo@gmail.com </a>
+                        <a target="_blank" class="text-lg font-medium text-black/60" href="https://mail.google.com/mail/u/0/#inbox?compose=new"> malloryouendo@gmail.com </a>
                     </div>
                     <div class="flex">
                         <svg class="mr-[16.34px]" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 -3 24 24">
@@ -32,9 +32,6 @@
                 <br> <br>
                 Very good management of the stress, 
                 good team spirit and good adaptability
-            </div>
-            <div>
-
             </div>
         </div>
     </div>

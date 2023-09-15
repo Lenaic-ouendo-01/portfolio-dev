@@ -8,7 +8,10 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-       'fam' : "Montserrat" 
+       'fam1' : "Montserrat",
+       'fam2' : "Rye",
+       'fam3' : "Pinyon Script",
+       'fam4' : "Lekton",
       }
     },
   },
