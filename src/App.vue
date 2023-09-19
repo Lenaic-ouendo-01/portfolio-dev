@@ -4,7 +4,8 @@
   import RealisationPage1 from './components/RealisationPage1.vue';
   import LanguageLevel1 from './components/LanguageLevel1.vue';
   import LanguageLevel2 from './components/LanguageLevel2.vue';
-  import BlogComponent1 from './components/BlogComponent1.vue';
+  import BlogComponent2 from './components/BlogComponent2.vue';
+  import ExperienceComponent2 from './components/ExperienceComponent2.vue';
 
   let language = "#HTML #CSS #Tailwindcss #Vanilla Js"
   let title = "404 Not Found"
@@ -18,7 +19,7 @@
 </script>
 
 <template>
-  <BlogComponent1/>
+  <ExperienceComponent2/>
 </template>
 
 <style scoped>

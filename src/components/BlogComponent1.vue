@@ -13,7 +13,7 @@
             </p>
             <a href="https://dev.to" class="text-[#2F80ED] text-base font-medium">dev.to</a>
         </div>
-        <div class="overflow-hidden rounded-l-xl w-[627px] h-[380.202px]">
+        <div class="overflow-hidden rounded-l-xl max-w-[627px] max-h-[380.202px]">
             <img src="../assets/challenge/coffee.jpg" class="w-full" alt="Coffee laptop and phone">
         </div>
     </div>
