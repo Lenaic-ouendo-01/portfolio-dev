@@ -5,7 +5,7 @@
   import LanguageLevel1 from './components/LanguageLevel1.vue';
   import LanguageLevel2 from './components/LanguageLevel2.vue';
   import BlogComponent2 from './components/BlogComponent2.vue';
-  import ExperienceComponent2 from './components/ExperienceComponent2.vue';
+  import HobbiesComponent2 from './components/HobbiesComponent2.vue';
 
   let language = "#HTML #CSS #Tailwindcss #Vanilla Js"
   let title = "404 Not Found"
@@ -19,7 +19,7 @@
 </script>
 
 <template>
-  <ExperienceComponent2/>
+  <HobbiesComponent2/>
 </template>
 
 <style scoped>
