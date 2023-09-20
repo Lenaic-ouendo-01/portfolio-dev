@@ -5,7 +5,7 @@
   import LanguageLevel1 from './components/LanguageLevel1.vue';
   import LanguageLevel2 from './components/LanguageLevel2.vue';
   import BlogComponent2 from './components/BlogComponent2.vue';
-  import HobbiesComponent2 from './components/HobbiesComponent2.vue';
+  import ProjectBar from './components/ProjectBar.vue';
 
   let language = "#HTML #CSS #Tailwindcss #Vanilla Js"
   let title = "404 Not Found"
@@ -19,7 +19,7 @@
 </script>
 
 <template>
-  <HobbiesComponent2/>
+  <ProjectBar/>
 </template>
 
 <style scoped>

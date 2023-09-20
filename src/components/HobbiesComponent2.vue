@@ -39,21 +39,54 @@ let hobbies = ref([
         description: 'Quisque feugiat malesuada molestie.'
     }
 ])
+
+let deb = ref(0)
+let fin = ref(3)
+
+function next() {
+    deb.value = deb.value + 3;
+    fin.value = fin.value + 3;
+    console.log(deb.value)
+}
+function precedent() {
+    deb.value = deb.value - 3;
+    fin.value = fin.value - 3;
+    console.log(deb.value)
+}
+
 </script>
 
 <template>
   <h2 class="text-slate-500 font-fam1 font-medium text-2xl">Hobbies / Certifcates</h2>
   <div class="grid grid-cols-1 gap-5 mt-[26px]">
-    <div v-for="(hobbie, index) in hobbies" :key="index">
-        <div class="overflow-hidden rounded-xl max-w-[383px] max-h-[139px]">
+    <div v-for="(hobbie, index) in hobbies.slice(deb,fin)" :key="index" class="reveal-visible">
+        <div class="overflow-hidden rounded-xl max-w-[383px] max-h-[139px] reveal-1">
             <img :src="hobbie.src" :alt="hobbie.altImg" class="h-full w-full border rounded-xl">
         </div>
         <p class="mt-[26px] font-fam1 font-semibold text-lg text-[#333]">{{ hobbie.titre }}</p>
         <p class="mt-3 mb-[36px] font-fam1 font-medium text-base max-w-[383px] text-[#828282]">{{ hobbie.description }}</p>
     </div>
   </div>
+  <button @click="next()" v-if="fin < hobbies.length" class="reveal-visible bg-zinc-400 p-5 rounded-xl text-amber-800 m-8">Next</button>
+  <button @click="precedent()" v-if="(deb) >= 3" class="reveal-visible bg-zinc-400 p-5 rounded-xl text-amber-800 m-8">Precedent</button>
 </template>
 
 <style scoped>
+
+.reveal-visible{
+  animation-duration: 1s;
+  animation-name: text;
+}
+@keyframes text {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+    transition: 1s cubic-bezier(1,-0.55,.61,1.89)
+  }
+}
 
 </style>
