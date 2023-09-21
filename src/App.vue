@@ -17,56 +17,56 @@
     {
       language :  "#HTML #CSS #Tailwindcss",
       demoLink : 'https://mallory-404-not-found.netlify.app',
-      codeLink : '',
+      codeLink : 'https://github.com/Lenaic-ouendo-01/404_not_found',
       title : "404 Not Found",
       description : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste veniam a corrupti, aliquid esse nihil quod ullam sapiente expedita maiores. "
     },
     {
       language :  "#HTML #CSS #Tailwindcss",
       demoLink : 'https://devchallenge-my-team-page.netlify.app',
-      codeLink : '',
+      codeLink : 'https://github.com/Lenaic-ouendo-01/my-team-page',
       title : "My Team",
       description : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste veniam a corrupti, aliquid esse nihil quod ullam sapiente expedita maiores. "
     },
     {
       language :  "#HTML #CSS #Tailwindcss #Vanilla Js",
       demoLink : 'https://challenge-interior-consultant.netlify.app',
-      codeLink : '',
+      codeLink : 'https://github.com/Lenaic-ouendo-01/interior-consultant',
       title : "Interior Consultant",
       description : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste veniam a corrupti, aliquid esse nihil quod ullam sapiente expedita maiores. "
     },
     {
       language :  "#HTML #CSS #Tailwindcss #Vanilla Js",
       demoLink : 'https://page-recipe.netlify.app',
-      codeLink : '',
+      codeLink : 'https://github.com/Lenaic-ouendo-01/recipe-blog',
       title : "Recipe Page",
       description : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste veniam a corrupti, aliquid esse nihil quod ullam sapiente expedita maiores. "
     },
     {
       language :  "#HTML #CSS #Tailwindcss",
       demoLink : 'https://my-gallery-challenge-page.netlify.app',
-      codeLink : '',
+      codeLink : 'https://github.com/Lenaic-ouendo-01/My-Gallery-Challenge',
       title : "My Gallery",
       description : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste veniam a corrupti, aliquid esse nihil quod ullam sapiente expedita maiores. "
     },
     {
       language :  "#HTML #CSS #Tailwindcss #Vanilla Js",
       demoLink : 'https://page-checkout.netlify.app',
-      codeLink : '',
+      codeLink : 'https://github.com/Lenaic-ouendo-01/checkout-page',
       title : "Checkout Page",
       description : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste veniam a corrupti, aliquid esse nihil quod ullam sapiente expedita maiores. "
     },
     {
       language :  "#HTML #CSS #Tailwindcss #Vanilla Js",
       demoLink : 'https://edie-page-home.netlify.app',
-      codeLink : '',
+      codeLink : 'https://github.com/Lenaic-ouendo-01/edie-homepage',
       title : "Edie Homepage",
       description : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste veniam a corrupti, aliquid esse nihil quod ullam sapiente expedita maiores. "
     },
     {
       language :  "#HTML #CSS #Tailwindcss",
       demoLink : 'https://my-frame-menu.netlify.app',
-      codeLink : '',
+      codeLink : 'https://github.com/Lenaic-ouendo-01/myMenu',
       title : "Menu",
       description : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste veniam a corrupti, aliquid esse nihil quod ullam sapiente expedita maiores. "
     },
@@ -168,6 +168,6 @@
   }
 }
 .component{
-  @apply bg-white rounded-xl p-[22px] items-center;
+  @apply bg-white rounded-xl p-[22px] items-center mt-4;
 }
 </style>
