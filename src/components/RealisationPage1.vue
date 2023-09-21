@@ -1,9 +1,4 @@
 <script setup>
-let ImageSrc = '/src/assets/challenge/Capture404L.png'
-let Image ="/src/assets/challenge/Capture404.png"
-
-let titre = '404 Not Found'
-let version = "The design includes mobile and desktop version"
 
 const props = defineProps({
   ImageSrc: String,
@@ -15,17 +10,18 @@ const props = defineProps({
 
 <template>
     <div class="flex">
-        <div class="mr-2">
-            <p class="text-orange-200 text-xs font-fam2">{{ titre }}</p>
-            <div class="mt-2 rounded h-2 w-14 bg-gradient-to-r from-orange-400 to-orange-200"></div>
-            <p class="text-gray-500 text-sm mt-3">{{ version }}</p>
-            <img :src="Image" alt="" class="w-20 mt-2 mx-auto">
-        </div>
-        <img :src="ImageSrc" alt="" class="overflow-hidden">
+      <div class="mr-2">
+        <p class="text-orange-200 text-xs font-fam2">{{ titre }}</p>
+        <div class="mt-2 rounded h-2 w-14 bg-gradient-to-r from-orange-400 to-orange-200"></div>
+        <p class="text-gray-500 text-sm font-fam4 mt-2">{{ version }}</p>
+        <img :src="Image" alt="" class="w-20 mt-2 mx-auto">
+      </div>
+      <img :src="ImageSrc" alt="" class="overflow-hidden">
     </div>
 
 
-    Premier style du Composant. Code App
+
+    <!-- Premier style du Composant. Code App
     <div class="p-4 rounded-xl flex justify-between font-fam1 font-medium shadow-md w-[1024px] h-[311px]">
         <div class="w-[400px] h-[300px] bg-black/90 rounded-xl p-3 pb-0 overflow-hidden">
             <RealisationPage1/>
@@ -58,8 +54,8 @@ const props = defineProps({
       <a :href="codeLink">
         <button type="button" class="text-sky-600 w-32 h-11 border-sky-600 border-2 ml-3 rounded-xl text-lg">Code</button>
       </a>
-    </div>
-  </div>
+    </div> 
+  </div> -->
 </template>
 
 <style scoped>

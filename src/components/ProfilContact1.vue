@@ -3,10 +3,10 @@
 </script>
 
 <template>
-    <div class="flex p-[23px]">
+    <div class="flex">
         <img src="../assets/IMG_1020.jpg" class="max-w-[271.859px] mr-[33.57px] rounded-xl max-h-[266.141px]" alt="">
         <div class="">
-            <div class="flex justify-between">
+            <div class="sm:flex sm:justify-between">
                 <p class="font-semibold text-2xl text-stone-600">
                     Mallory Lénaïc OUENDO <br>
                     <span class="font-medium text-lg text-stone-600/80 mt-2">Front-end developer</span>

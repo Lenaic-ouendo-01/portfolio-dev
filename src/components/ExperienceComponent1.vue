@@ -34,7 +34,7 @@ let experiences = ref([
         <div>
             <p class="mt-[18px] font-fam1 font-medium text-sm text-[#828282]">{{ experience.duration }}</p>
             <p class="mt-3 font-fam1 font-semibold text-base">{{ experience.post }}</p>
-            <p class="mt-[33px] max-w-[168px] font-fam1 font-medium text-base text-[#828282]">{{ experience.description }}</p>
+            <p class="mt-[33px] max-w-[168px] font-fam4 font-medium text-base text-[#828282]">{{ experience.description }}</p>
         </div>
     </div>
   </div>
